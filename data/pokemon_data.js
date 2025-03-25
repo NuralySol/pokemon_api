@@ -1,0 +1,1 @@
+// fixture to hold the data for the pokemon collection
