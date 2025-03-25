@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Pokemon</title>
+</head>
+
+<body>
+    <h1>First 10 Pokémon</h1>
+    <ul>
+        <% pokemonList.forEach(p=> { %>
+            <li>
+                <%= p.name %>
+            </li>
+            <% }) %>
+    </ul>
+    <a href="/">← Back to Home</a>
+    <a href="/pokemon/random">Get 10 random pokemon Sprites</a>
+    
+</html>
