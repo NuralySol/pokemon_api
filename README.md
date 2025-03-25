@@ -1,1 +1,1 @@
-# Project review for MONGO DB
+# Pokemon API using EJS templating
